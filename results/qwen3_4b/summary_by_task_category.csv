@@ -1,0 +1,4 @@
+all_recall_at_10,basename_all_recall_at_10,code_precision_at_5,code_recall_at_10,code_recall_at_5,condition,elapsed_sec,model,n,parse_ok,task_category,test_precision_at_5,test_recall_at_10,test_recall_at_5
+0.0,0.0,0.0,0.0,0.0,issue_only,2.7220597826086954,qwen3:4b,184,0.0,Feature,0.0,0.0,0.0
+0.0,0.0,0.0,0.0,0.0,issue_plus_hints,3.7153695652173924,qwen3:4b,184,0.0,Feature,0.0,0.0,0.0
+0.0,0.0,0.0,0.0,0.0,issue_plus_inventory,4.978673913043477,qwen3:4b,184,0.0,Feature,0.0,0.0,0.0

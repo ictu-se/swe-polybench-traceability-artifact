@@ -1,0 +1,14 @@
+.venv/
+__pycache__/
+*.pyc
+logs/
+reproduced_results/
+.DS_Store
+*.aux
+*.log
+*.out
+*.pdf
+*.spl
+manuscript/
+submission/
+*.zip
