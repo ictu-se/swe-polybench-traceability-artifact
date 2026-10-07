@@ -1,0 +1,10 @@
+{
+  "dataset": "AmazonScience/SWE-PolyBench_500",
+  "revision": "546075b4b05d17ba914e72b8f4c6d5b1ea150c1d",
+  "upstream_url": "https://huggingface.co/datasets/AmazonScience/SWE-PolyBench_500/tree/546075b4b05d17ba914e72b8f4c6d5b1ea150c1d",
+  "archived_full_source_sha256": "137ee5d36a9291b90fa5467c02cc3343042aaa5b001e9c66d8c4d992ced617c1",
+  "feature_task_sha256": "d85f674e63749da2fb6c2ee4bd72de237ec7d29f9a64c5f045127ffefa5e1d87",
+  "legacy_replication_commit": "83014bf75660231c3225524d82ffe35e097dd6a2",
+  "legacy_task_sha256": "2b5f65be3306b69056972c858535d4575bb5b11bb4ad1570b4cdf80c121241db",
+  "run_date": "2026-10-07"
+}

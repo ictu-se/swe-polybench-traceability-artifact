@@ -1,0 +1,35 @@
+{
+  "version": "2026-10-07",
+  "population": "All 184 Feature tasks in the archived SWE-PolyBench 500 dataset; no exclusions by model outcome.",
+  "primary_target": "Files already present at base_commit; added files reported separately, renamed files use the pre-change source path.",
+  "candidate_universe": "All regular files and symlinks in the codeload archive of repo/base_commit. No patch-derived filtering.",
+  "retrieval": [
+    "Path BM25",
+    "Content BM25",
+    "Dense MiniLM (first 256 wordpieces per path+content document)",
+    "Reciprocal-rank fusion (constant 60)"
+  ],
+  "reranking": "Same hybrid top-40 for paths-only and content conditions; joint ranking of at most 10 files.",
+  "model_selection": "Two installed newer code-agent-oriented families, qwen3-coder:30b and devstral-small-2:24b. Availability and local inference feasibility, not a claim to the global frontier.",
+  "primary_seed": 11,
+  "repeat_seeds": [
+    29,
+    47
+  ],
+  "repeat_panel": "Two tasks per repository by fixed SHA256 ordering; all tasks for one-task repositories.",
+  "decoding": {
+    "temperature": 0.2,
+    "top_p": 0.9,
+    "top_k": 40,
+    "num_ctx": 16384,
+    "num_predict": 160
+  },
+  "primary_metrics": "Exact-path macro recall and fixed-budget precision at k=1,3,5,10; MRR; code/test recall from the same joint ranking.",
+  "uncertainty": "Paired task bootstrap and repository-cluster bootstrap, 10000 resamples, seed 20261007. Report differences and intervals, not rank claims from unpaired means.",
+  "missing_targets": "Primary recall undefined for tasks with no existing gold; count explicitly. Fixed-budget precision uses k denominator, abstentions consume unfilled budget.",
+  "hints": "Benchmark documentation describes comments before the first solution commit. Exclude from primary prompts to control extra discussion evidence; audit explicit target-path mentions without treating them as proof of temporal leakage.",
+  "legacy": "Archived June 2026 outputs are analyzed only to audit candidate-pool and metric artifacts; never reused as corrected repository results.",
+  "contamination": "No claim to rule out pretraining exposure; repository grounding does not establish decontamination.",
+  "secondary_provenance_audit": "Compare frozen historical candidate lists with reconstructed universes: absent-path occurrences, task-level absence fractions and coverage of the same existing target sets. Descriptive audit only; not a causal matched comparison of retrieval algorithms.",
+  "execution_order": "Repetitions of each task/condition may be grouped to reuse prompt caching. Seed membership and request payload are fixed independently of outcomes; elapsed times are not controlled efficiency estimates."
+}

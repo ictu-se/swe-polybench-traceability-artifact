@@ -1,0 +1,11 @@
+{
+  "source": "Dedicated Ollama service startup log",
+  "batch_size": 1024,
+  "micro_batch_size": 1024,
+  "flash_attention_setting": "auto",
+  "qwen3_coder_gpu_layers": 49,
+  "qwen3_coder_total_layers_including_output": 49,
+  "devstral_gpu_layers": 41,
+  "devstral_total_layers_including_output": 41,
+  "scope": "Dedicated-service loads only; early shared-service residency was not controlled. Timings are diagnostic."
+}

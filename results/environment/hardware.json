@@ -1,0 +1,10 @@
+{
+  "cpu": "Apple M4 Max",
+  "hardware_model": "Mac16,5",
+  "unified_memory_bytes": 51539607552,
+  "inference_endpoint": "local Ollama",
+  "runtime_version": "0.34.4",
+  "run_start_date": "2026-10-07",
+  "timezone": "Asia/Ho_Chi_Minh",
+  "note": "Inference speed affected by residency, concurrent client load and retrieval workload; no hardware-normalized efficiency claim."
+}

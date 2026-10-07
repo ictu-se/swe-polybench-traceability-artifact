@@ -1,0 +1,1 @@
+{"passed": true, "tasks": 184, "retrieval_records": 184, "model_records": 1016, "checks": ["dataset checksum", "snapshot identity", "universe and candidate membership", "matrix completeness", "model and manifest digests", "exact prompts and settings", "response-to-ranking correspondence"]}
