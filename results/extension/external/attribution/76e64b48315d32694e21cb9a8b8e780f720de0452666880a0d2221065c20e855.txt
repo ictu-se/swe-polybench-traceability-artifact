@@ -1,0 +1,18 @@
+MTPLX
+Copyright 2026 Youssof Altoukhi
+
+MTPLX is a native MTP speculative decoding project for Apple Silicon.
+
+Preferred attribution for public projects, products, benchmarks, articles, and
+research that use or build on MTPLX:
+
+  Powered by MTPLX by Youssof Altoukhi
+  https://github.com/youssofal/mtplx
+
+If MTPLX informs academic or technical writing, please cite the repository using
+the included CITATION.cff metadata.
+
+This distribution includes a vendored standalone subset of vllm-metal's
+Apache-2.0 licensed Metal paged-attention kernels under vllm_metal/metal.
+The vendored subset is used only for local MLX/Metal kernel dispatch and does
+not include or depend on the vLLM serving stack.

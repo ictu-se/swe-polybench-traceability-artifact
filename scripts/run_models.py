@@ -45,18 +45,21 @@ def make_prompt(task, retrieved, condition):
 
 def main():
     p = argparse.ArgumentParser(description=__doc__)
+    p.add_argument("--tasks", type=Path, default=ROOT / "data/tasks.jsonl")
     p.add_argument("--host", default="http://127.0.0.1:11434")
     p.add_argument("--model", required=True, choices=["qwen3-coder:30b", "devstral-small-2:24b"])
     p.add_argument("--conditions", nargs="+", default=["paths", "content"])
     p.add_argument("--seeds", nargs="+", type=int, default=[11, 29, 47])
     p.add_argument("--limit", type=int, default=0)
+    p.add_argument("--repeat-all", action="store_true", help="Evaluate every requested seed on every task")
+    p.add_argument("--retrieval", type=Path, help="Separate directory of frozen retrieval inputs")
     p.add_argument("--timeout", type=int, default=240)
     p.add_argument("--output", type=Path, default=ROOT / "results",
                    help="Results directory containing retrieval inputs and model outputs")
     args = p.parse_args()
-    tasks = load_rows(ROOT / "data/tasks.jsonl")
+    tasks = load_rows(args.tasks)
     panel = set(repeat_panel(tasks))
-    save_json(ROOT / "data/repeat_panel.json", sorted(panel))
+    save_json(args.output / "repeat_panel.json", sorted(t["instance_id"] for t in tasks) if args.repeat_all else sorted(panel))
     tags = requests.get(args.host + "/api/tags", timeout=30).json()
     model = next(m for m in tags["models"] if m["name"] == args.model)
     slug = args.model.replace(":", "_").replace("/", "_")
@@ -85,12 +88,12 @@ def main():
     # Group repetitions of an identical prompt to reuse the inference prefix cache.
     # This changes scheduling only; the matrix, payloads and scoring are unchanged.
     jobs = ((task, condition, seed) for task in tasks for condition in args.conditions
-            for seed in args.seeds if seed == 11 or task["instance_id"] in panel)
+            for seed in args.seeds if args.repeat_all or seed == 11 or task["instance_id"] in panel)
     for task, condition, seed in jobs:
         tid = task["instance_id"]
         if (tid, condition, seed) in done:
             continue
-        source = args.output / "retrieval" / (tid + ".json")
+        source = (args.retrieval or args.output / "retrieval") / (tid + ".json")
         while not source.exists():
             print("waiting for repository retrieval", tid, flush=True)
             time.sleep(20)

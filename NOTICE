@@ -32,3 +32,11 @@ Repository excerpts in retrieval records and prompts are third-party material.
 The repository and immutable commit associated with every excerpt are recorded
 in results/retrieval. Their original licenses apply, not the license of our
 retrieval implementation. Snapshot license texts are in results/attribution.
+
+External evaluation data: nebius/SWE-rebench-leaderboard, revision
+34d5a58864acf91613740a09ec5d205228dcfa39, CC-BY-4.0.
+Source: https://huggingface.co/datasets/nebius/SWE-rebench-leaderboard
+License: https://creativecommons.org/licenses/by/4.0/
+The selected records add public issue-date metadata and repository primary language.
+Repository code/excerpts retain their individual upstream licenses.
+CodeRankEmbed is downloaded separately from Nomic AI and not redistributed here.

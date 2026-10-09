@@ -1,0 +1,9 @@
+{
+  "completed_at": "2026-10-09T04:27:17.199746+00:00",
+  "tasks": 12,
+  "passed": true,
+  "generated_patch_records_at_completion": 0,
+  "inspection_script_sha256": "8a46ef13286791e8f07fcd5a6b29e0384cf70b9f5d9cbeb46090a44b81d9921e",
+  "records_sha256": "bfdeeb6c5536f7bccfbcd232f3ec6d6efa4505fabf52a6d0d989838c07e66cfb",
+  "scope": "model-visible Git state, clean working tree, known reference patch paths, network and host bind mounts; not an exhaustive proof about all image contents"
+}

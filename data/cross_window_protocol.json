@@ -1,0 +1,23 @@
+{
+  "declared_at": "2026-10-09T04:54:49.350202+00:00",
+  "analysis_type": "post-hoc exploratory factorial recombination of existing cached embeddings",
+  "trigger": "The completed 184-task feature matrix showed recall 0.303818 at the joint 256-token limit versus 0.206411 at 2048. The original contrast jointly changed query and document limits.",
+  "query_limits": [
+    256,
+    2048
+  ],
+  "document_limits": [
+    256,
+    2048
+  ],
+  "cohorts": [
+    "feature",
+    "external"
+  ],
+  "weights_and_pool": "same pinned CodeRankEmbed weights and frozen hybrid top100",
+  "new_model_calls": 0,
+  "original_conditions": "verify cached-vector scores and preserve original diagonal rankings",
+  "contrasts": "document-cap effect at each query cap; query-cap effect at each document cap; difference-in-differences interaction",
+  "interpretation": "post-hoc, exploratory; not included in the original pre-scoring extension protocol; no hyperparameter selection or replacement of primary outcomes",
+  "derivation_script_sha256": "87725ae68061b6e56b92d6f82ec103df71d099d55e4519a1f10829f01b75fe81"
+}

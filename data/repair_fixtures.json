@@ -1,0 +1,28 @@
+{
+  "pgmpy__pgmpy-3137": [
+    {
+      "url": "https://raw.githubusercontent.com/pgmpy/example_models/920f4e03fce2a319af0fbc8dc6fad1ac99ff4318/discrete/alarm.bif.gz",
+      "sha256": "f5860caa7137b5817e0c4f169cce0f1451ce6c246b96f5ce4fb4a8167993be29",
+      "cache_key": "31fd2b6e4ea36418371dc05a464a10015de74ea33475a48bfe2cf7c241b257c6",
+      "example_name": "bnlearn/alarm"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/pgmpy/example_models/920f4e03fce2a319af0fbc8dc6fad1ac99ff4318/discrete/asia.bif.gz",
+      "sha256": "7d5e7b8549834824c1b05f367eb7860fa3fca3adaf3649f0c7be6035af197197",
+      "cache_key": "1b51d37b4d576f160f36881fc35f6fefd111ccdc259795dd815eb48e76c4014f",
+      "example_name": "bnlearn/asia"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/pgmpy/example_models/920f4e03fce2a319af0fbc8dc6fad1ac99ff4318/discrete/cancer.bif.gz",
+      "sha256": "dcfafbaadabcd1b8c9ec531e16721a19fc06829e980a3967d6345496ea081818",
+      "cache_key": "de3d8cc35189d858c0d2a8b59b27bd207c2e4795cb2a0e2ef7f1c3581de651c3",
+      "example_name": "bnlearn/cancer"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/pgmpy/example_models/920f4e03fce2a319af0fbc8dc6fad1ac99ff4318/discrete/sachs.bif.gz",
+      "sha256": "ed1830fbde101ed50cce3c7a3c8cbf1d2f5225531cf35ff09fb3cec0af101bce",
+      "cache_key": "57eecd3e65cb2ddea1398825f3556925d1b8bf7fede240b12f14a20ab0aed1bd",
+      "example_name": "bnlearn/sachs"
+    }
+  ]
+}

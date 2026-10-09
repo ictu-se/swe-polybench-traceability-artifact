@@ -1,0 +1,572 @@
+[
+  {
+    "task_id": "oemof__tespy-921",
+    "pr": {
+      "url": "https://github.com/oemof/tespy/pull/921",
+      "createdAt": "2026-03-26T06:19:08Z",
+      "mergedAt": "2026-03-26T06:29:17Z",
+      "closingIssuesReferences": {
+        "nodes": [
+          {
+            "number": 920,
+            "url": "https://github.com/oemof/tespy/issues/920",
+            "title": "When working with `Ref` for temperature starting values for enthalpy should be updated",
+            "createdAt": "2026-03-26T06:12:10Z"
+          }
+        ]
+      }
+    },
+    "reason": "eligible"
+  },
+  {
+    "task_id": "hkuds__openharness-217",
+    "pr": {
+      "url": "https://github.com/HKUDS/OpenHarness/pull/217",
+      "createdAt": "2026-04-30T00:28:27Z",
+      "mergedAt": "2026-05-01T12:29:30Z",
+      "closingIssuesReferences": {
+        "nodes": [
+          {
+            "number": 216,
+            "url": "https://github.com/HKUDS/OpenHarness/issues/216",
+            "title": "[Bug]: Windows browser-open in DeviceCodeFlow uses shell=True with externally-supplied URL",
+            "createdAt": "2026-04-30T00:28:08Z"
+          }
+        ]
+      }
+    },
+    "reason": "eligible"
+  },
+  {
+    "task_id": "itsdnns__docsight-437",
+    "pr": {
+      "url": "https://github.com/itsDNNS/docsight/pull/437",
+      "createdAt": "2026-05-06T09:32:16Z",
+      "mergedAt": "2026-05-06T09:35:56Z",
+      "closingIssuesReferences": {
+        "nodes": [
+          {
+            "number": 433,
+            "url": "https://github.com/itsDNNS/docsight/issues/433",
+            "title": "Hide unsupported DOCSIS errors in Before/After Comparison",
+            "createdAt": "2026-05-06T07:41:02Z"
+          }
+        ]
+      }
+    },
+    "reason": "eligible"
+  },
+  {
+    "task_id": "youssofal__mtplx-21",
+    "pr": {
+      "url": "https://github.com/youssofal/MTPLX/pull/21",
+      "createdAt": "2026-05-07T19:59:26Z",
+      "mergedAt": "2026-05-07T20:33:55Z",
+      "closingIssuesReferences": {
+        "nodes": [
+          {
+            "number": 20,
+            "url": "https://github.com/youssofal/MTPLX/issues/20",
+            "title": "Tool-call markup leaks as content when model produces text + <tool_call> in the same response",
+            "createdAt": "2026-05-07T19:55:44Z"
+          }
+        ]
+      }
+    },
+    "reason": "eligible"
+  },
+  {
+    "task_id": "meltano__meltano-9929",
+    "pr": {
+      "url": "https://github.com/meltano/meltano/pull/9929",
+      "createdAt": "2026-04-04T02:15:27Z",
+      "mergedAt": "2026-04-28T01:44:35Z",
+      "closingIssuesReferences": {
+        "nodes": [
+          {
+            "number": 9872,
+            "url": "https://github.com/meltano/meltano/issues/9872",
+            "title": "feature: Sort settings meaningfully in meltano config list",
+            "createdAt": "2026-02-25T04:25:17Z"
+          }
+        ]
+      }
+    },
+    "reason": "eligible"
+  },
+  {
+    "task_id": "pgmpy__pgmpy-3137",
+    "pr": {
+      "url": "https://github.com/pgmpy/pgmpy/pull/3137",
+      "createdAt": "2026-03-22T09:18:02Z",
+      "mergedAt": "2026-03-26T08:56:19Z",
+      "closingIssuesReferences": {
+        "nodes": [
+          {
+            "number": 3136,
+            "url": "https://github.com/pgmpy/pgmpy/issues/3136",
+            "title": "[BUG] `stable` variant in `_build_skeleton` doesn't precompute neighbors",
+            "createdAt": "2026-03-22T09:16:13Z"
+          }
+        ]
+      }
+    },
+    "reason": "eligible"
+  },
+  {
+    "task_id": "unit8co__darts-3065",
+    "pr": {
+      "url": "https://github.com/unit8co/darts/pull/3065",
+      "createdAt": "2026-04-10T23:06:13Z",
+      "mergedAt": "2026-04-16T12:36:44Z",
+      "closingIssuesReferences": {
+        "nodes": [
+          {
+            "number": 2880,
+            "url": "https://github.com/unit8co/darts/issues/2880",
+            "title": "[BUG] IndexError when transforming static covariates with OneHotEncoder and parameter drop set",
+            "createdAt": "2025-08-26T09:29:28Z"
+          }
+        ]
+      }
+    },
+    "reason": "no date-verified matching recent issue"
+  },
+  {
+    "task_id": "tox-dev__tox-3904",
+    "pr": {
+      "url": "https://github.com/tox-dev/tox/pull/3904",
+      "createdAt": "2026-03-26T04:52:51Z",
+      "mergedAt": "2026-03-27T04:16:31Z",
+      "closingIssuesReferences": {
+        "nodes": [
+          {
+            "number": 3903,
+            "url": "https://github.com/tox-dev/tox/issues/3903",
+            "title": "Multiline factors broken again in tox>=4.46.0 #3902",
+            "createdAt": "2026-03-25T19:28:45Z"
+          }
+        ]
+      }
+    },
+    "reason": "eligible"
+  },
+  {
+    "task_id": "tobymao__sqlglot-7457",
+    "pr": {
+      "url": "https://github.com/tobymao/sqlglot/pull/7457",
+      "createdAt": "2026-04-05T13:50:52Z",
+      "mergedAt": "2026-04-06T10:30:11Z",
+      "closingIssuesReferences": {
+        "nodes": [
+          {
+            "number": 7456,
+            "url": "https://github.com/tobymao/sqlglot/issues/7456",
+            "title": "BigQuery: AI.FORECAST TVF syntax fails to parse",
+            "createdAt": "2026-04-05T11:40:43Z"
+          }
+        ]
+      }
+    },
+    "reason": "eligible"
+  },
+  {
+    "task_id": "astronomy-commons__lsdb-1349",
+    "pr": {
+      "url": "https://github.com/astronomy-commons/lsdb/pull/1349",
+      "createdAt": "2026-04-29T20:36:11Z",
+      "mergedAt": "2026-04-30T21:56:41Z",
+      "closingIssuesReferences": {
+        "nodes": [
+          {
+            "number": 1066,
+            "url": "https://github.com/astronomy-commons/lsdb/issues/1066",
+            "title": "Allow writing catalogs with pixel directories",
+            "createdAt": "2025-10-06T21:47:42Z"
+          }
+        ]
+      }
+    },
+    "reason": "no date-verified matching recent issue"
+  },
+  {
+    "task_id": "tox-dev__tox-3931",
+    "pr": {
+      "url": "https://github.com/tox-dev/tox/pull/3931",
+      "createdAt": "2026-05-01T15:37:40Z",
+      "mergedAt": "2026-05-02T08:28:29Z",
+      "closingIssuesReferences": {
+        "nodes": [
+          {
+            "number": 3929,
+            "url": "https://github.com/tox-dev/tox/issues/3929",
+            "title": "tox.toml Schema does not align with implementation for env deps property",
+            "createdAt": "2026-04-26T21:00:57Z"
+          }
+        ]
+      }
+    },
+    "reason": "eligible"
+  },
+  {
+    "task_id": "scikit-learn__scikit-learn-33565",
+    "pr": {
+      "url": "https://github.com/scikit-learn/scikit-learn/pull/33565",
+      "createdAt": "2026-03-17T10:54:06Z",
+      "mergedAt": "2026-04-15T10:50:13Z",
+      "closingIssuesReferences": {
+        "nodes": [
+          {
+            "number": 33032,
+            "url": "https://github.com/scikit-learn/scikit-learn/issues/33032",
+            "title": "BUG: LinearRegression is wrong on float32 and large n_samples (> 500k rows) due to `cond` param to scipy.linalg.lstsq",
+            "createdAt": "2026-01-09T20:15:35Z"
+          }
+        ]
+      }
+    },
+    "reason": "eligible"
+  },
+  {
+    "task_id": "microsoft__qcodes-8039",
+    "pr": {
+      "url": "https://github.com/microsoft/Qcodes/pull/8039",
+      "createdAt": "2026-04-13T10:36:33Z",
+      "mergedAt": "2026-04-29T05:43:56Z",
+      "closingIssuesReferences": {
+        "nodes": [
+          {
+            "number": 5518,
+            "url": "https://github.com/microsoft/Qcodes/issues/5518",
+            "title": "Acccessing a faulty property of an instrument throws obscure error.",
+            "createdAt": "2023-11-14T14:44:16Z"
+          }
+        ]
+      }
+    },
+    "reason": "no date-verified matching recent issue"
+  },
+  {
+    "task_id": "koxudaxi__datamodel-code-generator-3070",
+    "pr": {
+      "url": "https://github.com/datamodel-code-generator/datamodel-code-generator/pull/3070",
+      "createdAt": "2026-04-04T06:59:19Z",
+      "mergedAt": "2026-04-04T07:15:22Z",
+      "closingIssuesReferences": {
+        "nodes": [
+          {
+            "number": 3062,
+            "url": "https://github.com/datamodel-code-generator/datamodel-code-generator/issues/3062",
+            "title": "OpenAPI integer discriminator is generated as string type",
+            "createdAt": "2026-03-24T09:29:26Z"
+          }
+        ]
+      }
+    },
+    "reason": "eligible"
+  },
+  {
+    "task_id": "schemathesis__schemathesis-3933",
+    "pr": {
+      "url": "https://github.com/schemathesis/schemathesis/pull/3933",
+      "createdAt": "2026-05-04T09:43:10Z",
+      "mergedAt": "2026-05-04T10:26:27Z",
+      "closingIssuesReferences": {
+        "nodes": [
+          {
+            "number": 3931,
+            "url": "https://github.com/schemathesis/schemathesis/issues/3931",
+            "title": "Invalid component: parameter `page_size` in query - invalid type array (expected integer)",
+            "createdAt": "2026-05-04T08:27:37Z"
+          }
+        ]
+      }
+    },
+    "reason": "eligible"
+  },
+  {
+    "task_id": "astropy__astropy-19438",
+    "pr": {
+      "url": "https://github.com/astropy/astropy/pull/19438",
+      "createdAt": "2026-03-16T13:19:32Z",
+      "mergedAt": "2026-03-18T11:30:19Z",
+      "closingIssuesReferences": {
+        "nodes": [
+          {
+            "number": 18612,
+            "url": "https://github.com/astropy/astropy/issues/18612",
+            "title": "Updating fpacked FITS file using astropy 7.x breaks the compression",
+            "createdAt": "2025-09-11T15:57:59Z"
+          }
+        ]
+      }
+    },
+    "reason": "no date-verified matching recent issue"
+  },
+  {
+    "task_id": "agronholm__anyio-1134",
+    "pr": {
+      "url": "https://github.com/agronholm/anyio/pull/1134",
+      "createdAt": "2026-05-05T21:20:58Z",
+      "mergedAt": "2026-05-10T18:15:20Z",
+      "closingIssuesReferences": {
+        "nodes": [
+          {
+            "number": 1027,
+            "url": "https://github.com/agronholm/anyio/issues/1027",
+            "title": "to_process.run_sync fails to set up __main__ in worker process when run from an entry point",
+            "createdAt": "2025-11-11T14:20:36Z"
+          }
+        ]
+      }
+    },
+    "reason": "no date-verified matching recent issue"
+  },
+  {
+    "task_id": "alibaba__opensandbox-816",
+    "pr": {
+      "url": "https://github.com/opensandbox-group/OpenSandbox/pull/816",
+      "createdAt": "2026-04-29T07:35:36Z",
+      "mergedAt": "2026-04-29T11:41:20Z",
+      "closingIssuesReferences": {
+        "nodes": [
+          {
+            "number": 814,
+            "url": "https://github.com/opensandbox-group/OpenSandbox/issues/814",
+            "title": "SECURITY: symbolic link within a whitelisted path that points to the host root directory `/`, and then request a mount using the symlink path.",
+            "createdAt": "2026-04-29T06:08:27Z"
+          }
+        ]
+      }
+    },
+    "reason": "eligible"
+  },
+  {
+    "task_id": "pdm-project__pdm-3759",
+    "pr": {
+      "url": "https://github.com/pdm-project/pdm/pull/3759",
+      "createdAt": "2026-04-01T14:37:40Z",
+      "mergedAt": "2026-04-02T09:34:59Z",
+      "closingIssuesReferences": {
+        "nodes": [
+          {
+            "number": 3756,
+            "url": "https://github.com/pdm-project/pdm/issues/3756",
+            "title": "pdm options table not loaded from target when -p/--project is used",
+            "createdAt": "2026-03-27T19:32:39Z"
+          }
+        ]
+      }
+    },
+    "reason": "eligible"
+  },
+  {
+    "task_id": "graphistry__pygraphistry-1277",
+    "pr": {
+      "url": "https://github.com/graphistry/pygraphistry/pull/1277",
+      "createdAt": "2026-05-04T02:58:43Z",
+      "mergedAt": "2026-05-04T04:32:03Z",
+      "closingIssuesReferences": {
+        "nodes": [
+          {
+            "number": 1273,
+            "url": "https://github.com/graphistry/pygraphistry/issues/1273",
+            "title": "Cypher/GFQL: admit multi-MATCH-source row projection without hidden carries (IC5 sub-residual B)",
+            "createdAt": "2026-05-04T01:42:38Z"
+          }
+        ]
+      }
+    },
+    "reason": "eligible"
+  },
+  {
+    "task_id": "holoviz__param-1117",
+    "pr": {
+      "url": "https://github.com/holoviz/param/pull/1117",
+      "createdAt": "2026-03-25T14:50:38Z",
+      "mergedAt": "2026-03-30T14:27:31Z",
+      "closingIssuesReferences": {
+        "nodes": [
+          {
+            "number": 1116,
+            "url": "https://github.com/holoviz/param/issues/1116",
+            "title": "Shared rx inputs are not reused",
+            "createdAt": "2026-03-25T14:49:58Z"
+          }
+        ]
+      }
+    },
+    "reason": "eligible"
+  },
+  {
+    "task_id": "tobymao__sqlglot-7187",
+    "pr": {
+      "url": "https://github.com/tobymao/sqlglot/pull/7187",
+      "createdAt": "2026-03-02T15:56:17Z",
+      "mergedAt": "2026-03-02T16:42:09Z",
+      "closingIssuesReferences": {
+        "nodes": [
+          {
+            "number": 7179,
+            "url": "https://github.com/tobymao/sqlglot/issues/7179",
+            "title": "DuckDB dialect parse error: `window function IGNORE NULLS`",
+            "createdAt": "2026-03-01T12:41:56Z"
+          }
+        ]
+      }
+    },
+    "reason": "eligible"
+  },
+  {
+    "task_id": "cs-si__eodag-2176",
+    "pr": {
+      "url": "https://github.com/CS-SI/eodag/pull/2176",
+      "createdAt": "2026-05-11T10:01:25Z",
+      "mergedAt": "2026-05-11T12:12:51Z",
+      "closingIssuesReferences": {
+        "nodes": [
+          {
+            "number": 2170,
+            "url": "https://github.com/CS-SI/eodag/issues/2170",
+            "title": "AttributeError: 'FieldInfo' object has no attribute 'asdict' when looking for `sentinel-1-rtc` in `planetary_computer`",
+            "createdAt": "2026-04-30T13:51:35Z"
+          }
+        ]
+      }
+    },
+    "reason": "eligible"
+  },
+  {
+    "task_id": "psd-tools__psd-tools-593",
+    "pr": {
+      "url": "https://github.com/psd-tools/psd-tools/pull/593",
+      "createdAt": "2026-03-17T11:04:07Z",
+      "mergedAt": "2026-03-17T11:22:44Z",
+      "closingIssuesReferences": {
+        "nodes": [
+          {
+            "number": 592,
+            "url": "https://github.com/psd-tools/psd-tools/issues/592",
+            "title": "PSDImage.composite() exports white background PNG for a PSD with transparent background",
+            "createdAt": "2026-03-17T02:27:02Z"
+          }
+        ]
+      }
+    },
+    "reason": "eligible"
+  },
+  {
+    "task_id": "getmoto__moto-9903",
+    "pr": {
+      "url": "https://github.com/getmoto/moto/pull/9903",
+      "createdAt": "2026-03-23T19:41:08Z",
+      "mergedAt": "2026-03-27T18:41:57Z",
+      "closingIssuesReferences": {
+        "nodes": [
+          {
+            "number": 9902,
+            "url": "https://github.com/getmoto/moto/issues/9902",
+            "title": "[Dynamo DB] Point in Time Recovery `RecoveryPeriodInDays` key missing.",
+            "createdAt": "2026-03-23T19:38:13Z"
+          }
+        ]
+      }
+    },
+    "reason": "eligible"
+  },
+  {
+    "task_id": "copier-org__copier-2646",
+    "pr": {
+      "url": "https://github.com/copier-org/copier/pull/2646",
+      "createdAt": "2026-04-30T11:21:38Z",
+      "mergedAt": "2026-04-30T12:37:04Z",
+      "closingIssuesReferences": {
+        "nodes": [
+          {
+            "number": 2644,
+            "url": "https://github.com/copier-org/copier/issues/2644",
+            "title": "/tmp/copier._vcs.clone... directories er not being deleted after failed update",
+            "createdAt": "2026-04-29T22:21:48Z"
+          }
+        ]
+      }
+    },
+    "reason": "eligible"
+  },
+  {
+    "task_id": "getmoto__moto-9841",
+    "pr": {
+      "url": "https://github.com/getmoto/moto/pull/9841",
+      "createdAt": "2026-03-09T23:11:49Z",
+      "mergedAt": "2026-03-13T20:13:07Z",
+      "closingIssuesReferences": {
+        "nodes": [
+          {
+            "number": 9831,
+            "url": "https://github.com/getmoto/moto/issues/9831",
+            "title": "Suport for cloudformation AWS::KMS::Alias resource does not support Full ARN as TargetKeyId",
+            "createdAt": "2026-03-09T01:17:05Z"
+          }
+        ]
+      }
+    },
+    "reason": "eligible"
+  },
+  {
+    "task_id": "ultraplot__ultraplot-696",
+    "pr": {
+      "url": "https://github.com/Ultraplot/UltraPlot/pull/696",
+      "createdAt": "2026-04-16T22:58:14Z",
+      "mergedAt": "2026-04-16T23:28:15Z",
+      "closingIssuesReferences": {
+        "nodes": [
+          {
+            "number": 694,
+            "url": "https://github.com/Ultraplot/UltraPlot/issues/694",
+            "title": "Adding a legend to right of plot can remove y-axis tick labels",
+            "createdAt": "2026-04-16T17:20:04Z"
+          }
+        ]
+      }
+    },
+    "reason": "eligible"
+  },
+  {
+    "task_id": "sqlfluff__sqlfluff-7617",
+    "pr": {
+      "url": "https://github.com/sqlfluff/sqlfluff/pull/7617",
+      "createdAt": "2026-03-16T06:55:25Z",
+      "mergedAt": "2026-03-16T11:04:54Z",
+      "closingIssuesReferences": {
+        "nodes": [
+          {
+            "number": 6035,
+            "url": "https://github.com/sqlfluff/sqlfluff/issues/6035",
+            "title": "`ignore = templating` disables all rules",
+            "createdAt": "2024-08-01T12:10:31Z"
+          }
+        ]
+      }
+    },
+    "reason": "no date-verified matching recent issue"
+  },
+  {
+    "task_id": "schemathesis__schemathesis-4087",
+    "pr": {
+      "url": "https://github.com/schemathesis/schemathesis/pull/4087",
+      "createdAt": "2026-05-12T11:45:06Z",
+      "mergedAt": "2026-05-12T12:10:31Z",
+      "closingIssuesReferences": {
+        "nodes": [
+          {
+            "number": 3730,
+            "url": "https://github.com/schemathesis/schemathesis/issues/3730",
+            "title": "Maybe a bug - Schemathesis counts additional query properties as schema-violating",
+            "createdAt": "2026-04-16T21:47:13Z"
+          }
+        ]
+      }
+    },
+    "reason": "eligible"
+  }
+]

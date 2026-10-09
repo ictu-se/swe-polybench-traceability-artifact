@@ -13,11 +13,12 @@ def main():
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--cache", type=Path, required=True)
     parser.add_argument("--results", type=Path, default=ROOT / "results")
+    parser.add_argument("--tasks", type=Path, default=ROOT / "data/tasks.jsonl")
     args = parser.parse_args()
     dest = args.results / "attribution"
     dest.mkdir(parents=True, exist_ok=True)
     records = []
-    for task in load_rows(ROOT / "data/tasks.jsonl"):
+    for task in load_rows(args.tasks):
         source = args.cache / "corpus" / (task["instance_id"] + ".json.gz")
         with gzip.open(source, "rt", encoding="utf-8") as f:
             corpus = json.load(f)

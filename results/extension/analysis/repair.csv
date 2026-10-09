@@ -1,0 +1,13 @@
+task_id,environment_valid,status,success,base_valid,gold_valid,model_calls,prompt_tokens,output_tokens,nonempty_patch,patch_bytes,f2p_passed,f2p_failed,f2p_error,f2p_missing,f2p_skipped,f2p_xfail,f2p_xpass,p2p_passed,p2p_failed,p2p_error,p2p_missing,p2p_skipped,p2p_xfail,p2p_xpass,error
+oemof__tespy-921,True,evaluated,False,True,True,12,17016,415,False,0,0,1,0,0,0,0,0,46,0,0,0,0,0,0,
+hkuds__openharness-217,True,evaluated,False,True,True,11,29028,481,True,927,0,0,0,6,0,0,0,0,0,0,2,0,0,0,
+itsdnns__docsight-437,True,evaluated,False,True,True,12,28468,422,False,0,0,5,0,0,0,0,0,40,0,0,0,0,0,0,
+youssofal__mtplx-21,True,evaluated,False,True,True,11,24547,712,True,258745,0,4,0,0,0,0,0,5,0,0,0,0,0,0,
+meltano__meltano-9929,True,evaluated,False,True,True,12,47629,385,False,0,0,6,0,0,0,0,0,33,0,0,0,0,0,0,
+pgmpy__pgmpy-3137,True,evaluated,False,True,True,12,36609,845,False,0,0,1,0,0,0,0,0,66,0,0,0,0,0,0,
+tox-dev__tox-3904,True,evaluated,False,True,True,12,68800,412,False,0,0,2,0,0,0,0,0,184,0,0,0,0,0,0,
+tobymao__sqlglot-7457,True,evaluated,False,True,True,12,16901,388,False,0,0,1,0,0,0,0,0,57,0,0,0,0,0,0,
+tox-dev__tox-3931,True,evaluated,False,True,True,9,23246,345,True,1718,0,1,0,0,0,0,0,1,1,0,0,0,0,0,
+scikit-learn__scikit-learn-33565,True,evaluated,False,True,True,12,74154,3023,True,611,1,0,0,0,0,0,0,73,3,0,0,0,0,0,
+koxudaxi__datamodel-code-generator-3070,True,evaluated,False,True,True,12,37420,391,False,0,0,4,0,0,0,0,0,309,0,0,0,0,0,0,
+schemathesis__schemathesis-3933,True,evaluated,False,True,True,11,22787,325,False,0,0,1,0,0,0,0,0,96,0,0,0,0,0,0,

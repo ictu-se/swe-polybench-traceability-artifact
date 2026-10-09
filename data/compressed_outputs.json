@@ -1,0 +1,9 @@
+[
+  {
+    "archive": "results/extension/navigation.jsonl.gz",
+    "output": "results/extension/navigation.jsonl",
+    "archive_sha256": "8a6efd6107b267ffd0d17a46bcdff9fa4dd0235bf752d2495ff89cc1c9434335",
+    "output_sha256": "7aaa8af2db9d4d381b1742aab036e5e67590919c46a6020ffd224607b2a2549a",
+    "output_bytes": 113610882
+  }
+]

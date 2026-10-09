@@ -1,0 +1,63 @@
+{
+  "extension_date": "2026-10-09",
+  "frozen_before_extension_scoring": true,
+  "navigation": {
+    "model": "qwen3-coder:30b",
+    "scopes": [
+      "restricted40",
+      "repository"
+    ],
+    "initial": "same hybrid top ten with 600-character issue-selected excerpts",
+    "actions": 4,
+    "search": "full-content BM25 over the allowed scope, 12 hits, 200-character excerpts",
+    "read": "120 lines, max4000 characters",
+    "final": "one joint ranking of up to10 unique observed file IDs",
+    "primary": "all184 tasks, seed11",
+    "repeats": "seeds29/47 on existing prespecified35-task panel",
+    "decoding": {
+      "temperature": 0.2,
+      "top_p": 0.9,
+      "top_k": 40,
+      "num_ctx": 16384,
+      "action_num_predict": 256,
+      "final_num_predict": 160
+    },
+    "failed_episodes": "retained as empty rankings; no selection by output quality",
+    "purpose": "paired search-scope intervention with the same action and output budgets; not an unrestricted repair agent"
+  },
+  "semantic_reranking": {
+    "pool": "same frozen hybrid top100 for every encoder",
+    "representations": [
+      "MiniLM256",
+      "CodeRankEmbed256",
+      "CodeRankEmbed2048"
+    ],
+    "code_model": "nomic-ai/CodeRankEmbed",
+    "revision": "3c4b60807d71f79b43f3c4363786d9493691f8b1",
+    "input": "path plus query-independent source prefix; no target-based selection",
+    "query_prefix": "Represent this query for searching relevant code: ",
+    "purpose": "separate specialized encoder at matched256-token limit and longer2048-token window"
+  },
+  "external_evaluation": "Selection and environment-feasibility protocol will be frozen separately before external model scoring; external results will not be pooled with Feature tasks.",
+  "analysis": "exact existing-path R/P@1,3,5,10; paired task/repository bootstrap10000; search coverage, newly recovered targets outside initial40, tool calls, token/latency diagnostics; additional contrasts exploratory not preregistered",
+  "navigation_script_sha256": "18f56cf1159e011ac70bae1b1dcb9e9a4e2834ede59da826b7d7f8c645af7a8c",
+  "full_seed_extension": {
+    "model": "qwen3-coder:30b",
+    "conditions": [
+      "paths",
+      "content"
+    ],
+    "tasks": 184,
+    "seeds": [
+      11,
+      29,
+      47
+    ],
+    "expected_records": 1104,
+    "retained_original_records": 508,
+    "additional_calls": 596,
+    "selection_reason": "primary agent family chosen for feasible local inference; extend repetitions to all original tasks without selecting by new retrieval outcome",
+    "date_note": "original completed runs retained; new runs form a later execution session with same prompts,weights and decoding configuration",
+    "other_family": "Devstral retains its previously reported35-task panel; no claim of full-population stability for every family"
+  }
+}
