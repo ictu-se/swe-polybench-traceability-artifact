@@ -1,0 +1,13 @@
+task_id,static_recall,navigation_recall,model_calls,outcome
+oemof__tespy-921,0.166667,0.166667,12,No patch
+hkuds__openharness-217,1.000000,0.000000,11,Missing tests
+itsdnns__docsight-437,0.444444,0.444444,12,No patch
+youssofal__mtplx-21,1.000000,1.000000,11,Fail
+meltano__meltano-9929,0.500000,0.500000,12,No patch
+pgmpy__pgmpy-3137,1.000000,1.000000,12,No patch
+tox-dev__tox-3904,0.200000,0.400000,12,No patch
+tobymao__sqlglot-7457,0.500000,0.750000,12,No patch
+tox-dev__tox-3931,0.666667,1.000000,9,Fail
+scikit-learn__scikit-learn-33565,1.000000,1.000000,12,Regression
+koxudaxi__datamodel-code-generator-3070,0.500000,0.500000,12,No patch
+schemathesis__schemathesis-3933,0.666667,0.333333,11,No patch

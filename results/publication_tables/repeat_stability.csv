@@ -1,0 +1,7 @@
+method,coverage,mean_within_task_sd,mean_within_task_range
+devstral-small-2:24b/content,panel,0.037272,0.064558
+devstral-small-2:24b/paths,panel,0.027192,0.047098
+qwen3-coder:30b/content,panel,0.013190,0.022846
+qwen3-coder:30b/paths,panel,0.007652,0.013254
+qwen3-coder:30b/content,full,0.012443,0.022164
+qwen3-coder:30b/paths,full,0.012282,0.021346

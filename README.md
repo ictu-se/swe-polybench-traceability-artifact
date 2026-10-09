@@ -387,3 +387,25 @@ characterize this configured probe, not the ability of unrestricted repair agent
 `repair.csv` also records patch size and mapped fail-to-pass/pass-to-pass status
 counts. The navigator and repair agent run independently, so these measurements
 do not identify a causal localization-to-repair effect.
+
+
+### Publication table export and final figure sizing
+
+After the original, extension, and crossed-window analyses above, run:
+
+```sh
+python scripts/export_publication_tables.py
+python scripts/plot_manuscript.py
+```
+
+These commands read frozen analysis outputs without model calls. The exporter
+writes seven tables to `results/publication_tables/`, preserving task counts,
+method order, precision/recall, repeated-run variability, crossed-window results,
+and repair outcomes. Values retain six decimal places; printed tables round them.
+The plotter writes `results/figures/budget_curves.pdf` and
+`results/extension/figures/extension_budget_curves.pdf` at 119 mm width with
+10-point lettering and embedded vector fonts. Run this final plotter after the
+general plotting commands, which also generate exploratory figures.
+Both commands accept `--results` to select another complete analysis directory.
+Colors encode method family; markers and dashes distinguish conditions in grayscale.
+Only derived scientific figures are distributed here, not manuscript files.

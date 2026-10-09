@@ -1,0 +1,5 @@
+language,tasks,repository_files_median,existing_code,added_code,existing_test,added_test
+Java,44,2394.500000,181,2,79,16
+JavaScript,50,2209.500000,170,6,220,67
+Python,38,2567.000000,114,0,50,11
+TypeScript,52,6555.500000,218,20,83,6
